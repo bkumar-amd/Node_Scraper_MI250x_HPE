@@ -3,6 +3,7 @@ Error scrapper plugin config file for ProcessPlugin , StoragePlugin , MemoryPlug
 
 Command to Run Error Scrapper on Lockhart MI250x node
 
+git clone https://github.com/bkumar-amd/Error_Scrapper_MI250x_HPE.git
 pip install amd-node-scraper
 
 node-scraper --plugin-configs lockhart_MI250x_ErrorScrapper_config.json -- run-plugins \
