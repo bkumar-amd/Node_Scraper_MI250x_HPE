@@ -1,0 +1,28 @@
+{
+  "name": "Plugin config",
+  "desc": "ProcessPlugin and StoragePlugin with analysis thresholds and ignore list",
+  "global_args": {},
+  "plugins": {
+    "ProcessPlugin": {
+      "analysis_args": {
+        "max_kfd_processes": 1,
+        "max_cpu_usage": 20.0
+      }
+    },
+    "StoragePlugin": {
+      "analysis_args": {
+        "ignore_devices": ["/dev/loop.*"],
+        "regex_match": true
+      }
+    },
+    "MemoryPlugin": {
+      "analysis_args": {
+        "memory_threshold": "128Gi",
+        "ratio": 0.75
+      }
+    }
+  },
+  "result_collators": {
+    "TableSummary": {}
+  }
+}
