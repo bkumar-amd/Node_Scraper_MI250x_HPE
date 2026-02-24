@@ -1,6 +1,6 @@
 {
   "name": "Plugin config",
-  "desc": "ProcessPlugin and StoragePlugin with analysis thresholds and ignore list",
+  "desc": "ProcessPlugin, StoragePlugin, and MemoryPlugin with analysis thresholds and storage ignore list",
   "global_args": {},
   "plugins": {
     "ProcessPlugin": {
