@@ -1,4 +1,4 @@
-# NOde_Scrapper_MI250x_HPE
+# Node_Scrapper_MI250x_HPE
 Error scrapper plugin config file for ProcessPlugin , StoragePlugin , MemoryPlugin in MI250x HPE nodes
 
 Command to Run Node Scrapper on Lockhart MI250x node
