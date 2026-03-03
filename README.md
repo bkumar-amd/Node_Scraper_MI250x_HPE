@@ -7,7 +7,7 @@ git clone https://github.com/bkumar-amd/Node_Scraper_MI250x_HPE.git
 
 pip install amd-node-scraper
 
-node-scraper --plugin-configs lockhart_MI250x_NodeScrapper_config.json -- run-plugins \
+node-scraper --plugin-configs lockhart_MI250x_NodeScraper_config.json -- run-plugins \
   AmdSmiPlugin BiosPlugin CmdlinePlugin DeviceEnumerationPlugin DimmPlugin \
   DkmsPlugin DmesgPlugin JournalPlugin KernelPlugin KernelModulePlugin \
   NetworkPlugin OsPlugin PackagePlugin PciePlugin RocmPlugin \
